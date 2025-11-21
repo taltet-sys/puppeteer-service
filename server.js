@@ -1,3 +1,4 @@
+// Puppeteer render service
 const express = require('express');
 const cors = require('cors');
 const puppeteer = require('puppeteer');
@@ -73,4 +74,5 @@ const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`Service running on port ${PORT}`);
 });
+
 ```
